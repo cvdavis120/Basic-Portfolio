@@ -7,3 +7,72 @@ Main content background color: #ffffff
 /* Main content border color: #dddddd */
 /* For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
 For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;. */ 
+/* The entire content and the main section content area is 960px wide. */
+
+.page_header{
+    background-color:#ffffff;
+    border-color:#666666;
+    position:absolute;
+    width:960px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    background-color:#4aaaa5;
+    padding:25px;
+    color:white;
+    float:left;
+    width:77px;
+}
+ul{
+    position:absolute;
+    left:857px;
+}
+body{
+    clear:both;
+    text-align:center;
+    width:960px;
+    background-image: url ("../images/interlaced.png");
+    background-color:grey;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.body{
+    position:relative;
+    top:120px;
+    background-color:white;
+    border-color:#dddddd;
+    height:700px;
+    width:960px;
+    
+}
+.page_start{
+    text-align:left;
+    color:#4aaaa5;
+    position:relative;
+    width:900px;
+    top:15px;
+    left:10px;
+    border-bottom-style:solid;
+    border-color:grey;
+    
+}
+img {
+    float:left;
+    margin:10px;
+    
+}
+.aside{
+    word-wrap:break-word;
+    text-align:left;
+}
+.text-break{
+    clear:both;
+    text-align:left;
+}
+.footer{
+    clear:both;
+    position: relative;
+    top:310px;
+    width:100%;
+    background-color:#666666;
+    padding:25px;
+}
